@@ -71,10 +71,23 @@ a:hover {
     justify-content: space-between;
 }
 
+.boton {
+    padding: 2%;
+    display: flex;
+    justify-content: start;
+}
+
 .imagenes-detalles {
     flex-shrink: 0;
-    height: 50%;
-    width: 50%;
+    float: right;
+    width: 40%;
+    padding: 2%;
+}
+
+.detalles {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
 }
 
 .caja1 {
@@ -86,7 +99,8 @@ a:hover {
 .caja2 {
     padding-left: 2%;
     padding-right: 2%;
-    text-align: center;
+    flex-grow: 1.5;
+    justify-content: end;
 }
 
 .titulo-tabla {
@@ -118,3 +132,14 @@ footer {
     object-fit: cover;
 }
 
+.casilleros {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 2;
+  
+}
+
+.casilla {
+    padding-right: 1%;
+}
