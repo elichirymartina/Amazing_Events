@@ -59,11 +59,23 @@
 </div>
 
 
-    <table class="table table-bordered">
-      <tr class="titulo-tabla">
-        <th colspan="3"  class="h2">Events Statics</th>
-      </tr>
+<table class="table">
+    
+    <tr class="titulo-tabla">
+    <th colspan="3"  class="h2">Events Statics</th>
+    </tr>
 
+
+    <table class="table table-bordered" id="tabla1">
+     
+      <tr class="thead-light">
+        <th class="table-light">Events with the higher percentage of attendance</th>
+        <th class="table-light">Events with the lowest percentage of attendance</th>
+        <th class="table-light">Event with larger capacity</th>
+      </tr>
+      
+
+      <!--
       <tr>
         <td class="table-light">Events with the higher percentage of attendance</td>
         <td class="table-light">Events with the lowest percentage of attendance</td>
@@ -145,10 +157,36 @@
         <td class="table-light">2</td>
         <td class="table-light">3</td>
       </tr>
-
+      -->
 
     </table>
 
+    <table class="table table-bordered" id="tabla2">
+      <tr class="thead-light">
+        <th colspan="3">Upcoming events statics by category</th>
+      </tr>
+
+
+      <tr>
+        <th class="table-light">categories</th>
+        <th class="table-light">revenues</th>
+        <th class="table-light">percentage of attendance</th>
+      </tr>
+    </table>
+
+    <table class="table table-bordered" id="tabla3">
+      <tr class="thead-light">
+        <th colspan="3">Past events statics by category</th>
+      </tr>
+
+      <tr>
+        <th class="table-light">categories</th>
+        <th class="table-light">revenues</th>
+        <th class="table-light">percentage of attendance</th>
+      </tr>
+    </table>
+
+  </table>
 
 
 
@@ -160,8 +198,10 @@
   </footer>
 
 
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./stats.js"></script>
 </body>
 </html>

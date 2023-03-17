@@ -64,7 +64,9 @@ a:hover {
     padding: 2%;
 }
 
-
+.carta {
+    width: 32rem;
+}
 
 .base-carta {
     display: flex;
@@ -77,23 +79,19 @@ a:hover {
     justify-content: start;
 }
 
-.imagenes-detalles {
-    flex-shrink: 0;
-    float: right;
-    width: 40%;
-    padding: 2%;
-}
-
-.detalles {
+.imagenes-detalles{
+    object-fit: cover;
     display: flex;
-    flex-wrap: wrap;
-    float: left;
+    width: 100%;
+    max-height: 500px;
 }
 
 .caja1 {
     background-color: rgb(230, 229, 229);
     padding: 5%;
-    display: flex;
+    display: grid;
+
+
 }
 
 .caja2 {
@@ -143,3 +141,4 @@ footer {
 .casilla {
     padding-right: 1%;
 }
+
